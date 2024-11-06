@@ -2,12 +2,17 @@
 
 **Project Overview**
 The Patient Symptom Tracker  is a web-based application designed to help track and manage patient symptoms. The application allows users to log symptoms along with their severity, and based on the input, a recommendation is provided using a machine learning model. The recommendation can guide users on the next steps to take, such as consulting a specialist or seeking medical attention.
+
+
 **Key Features:**
 •	Symptom logging with severity levels.
 •	Real-time chart updates displaying symptom history.
 •	Machine learning-based recommendations based on symptom and severity.
 •	Data persistence using a SQL database.
 •	Responsive and interactive UI for smooth user experience.
+
+
+
 **Installation Steps**
 Prerequisites
 Before you start, make sure you have the following installed:
