@@ -1,0 +1,46 @@
+Setup Instuctions:
+
+1. Clone the Repository (or download project files)
+If you're using GitHub, you can clone the repository with:
+
+git clone <https://github.com/Dharsh-04/Patient-Symptom-Tracker>
+cd <Patient-Symptom-Tracker>
+
+If you haven't pushed it to GitHub, just make sure you have all your project files on your local machine.
+
+2. Install Python and Dependencies
+Ensure that Python (preferably Python 3) is installed on your machine.
+
+Then, in the project folder, create a virtual environment:
+
+python -m venv venv
+Activate the virtual environment:
+
+On Windows:
+.\venv\Scripts\activate
+
+On MacOS/Linux:
+source venv/bin/activate
+
+3. Install Required Libraries
+With the virtual environment activated, run the following command to install all required dependencies:
+
+pip install -r requirements.txt
+This will install all the necessary libraries such as Flask, scikit-learn, pandas, etc.
+
+4. Set Up the Database
+Before running the app, ensure the SQLite database is created by running the Flask app once to create tables:
+
+flask run
+This will set up the symptoms.db file in your project directory.
+
+5. Running the Application
+Now, you can run the application by executing:
+
+flask run
+This will start the Flask server, and you can visit the application by opening a browser and going to:
+arduino
+http://127.0.0.1:5000/
+6. Test the Application
+Open your browser and visit the URL.
+You can start logging symptoms, check the recommendations, and visualize the symptom history.
