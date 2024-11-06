@@ -55,7 +55,7 @@ Frontend
 •	Fetch API: For sending asynchronous HTTP requests to the backend.
 •	Bootstrap: Frontend framework for styling and responsive design.
 
-**Future Improvements**
+**Future Improvements** 
 While the current version of the project offers basic functionality, here are some potential improvements:
 1.	User Authentication:
 o	Allow users to create accounts, log in, and access their personal symptom history.
